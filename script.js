@@ -2,7 +2,7 @@ let container = document.querySelector(".container");
 let btn = document.getElementById("spin");
 
 // Define the probabilities for each segment (total is close to 1)
-let probabilities = [0.3, 0.02, 0.3, 0.1, 0.3, 0.08, 0.1, 0.01];
+let probabilities = [0.27, 0.02, 0.3, 0.13, 0.27, 0.08, 0.13, 0.01];
 
 // Angles for each segment (assuming 8 equal segments in a 360-degree circle)
 let segmentAngles = [0, 45, 90, 135, 180, 225, 270, 315];
